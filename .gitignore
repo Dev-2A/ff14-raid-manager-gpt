@@ -1,1 +1,65 @@
-/venv
+# --------------------------
+# Python/Django (backend)
+# --------------------------
+venv/
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+db.sqlite3
+media/
+staticfiles/
+*.pot
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+
+# Django migration files
+*/migrations/
+!*/migrations/__init__.py
+
+# 환경 설정/개인정보
+.env
+.env.*
+
+# VSCode/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --------------------------
+# Node/React (frontend)
+# --------------------------
+node_modules/
+dist/
+build/
+.npm/
+.cache/
+.env.local
+.env.development
+.env.production
+.env.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json # (협업상 논의 후 포함 여부 결정, 일반적으로는 포함)
+
+# Vite/React
+*.map
+
+# Mac/Linux/Windows OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# 기타
+*.bak
+*.tmp
+
+# --------------------------
+# Tailwind/JIT cache (Vite)
+# --------------------------
+.tailwind*
